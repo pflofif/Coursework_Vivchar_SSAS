@@ -1,0 +1,295 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0d7345a8-f91a-48d0-a6d1-bb87c288ac1b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tenant DW</ID>
+  <Name>Tenant DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8000" scrolltop="-2205" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="19050" y="16933" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Apartment" left="-3357" top="7193" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3514" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000ba0d0000d30b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Apartment" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Date" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Date" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Tenant" left="134" top="2872" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3874" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000220f00003b0d0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Tenant" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Rent" left="-5590" top="740" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3535" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000cf0d00000a100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Fact_Rent" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-2355" top="843" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="2675" height="1440" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Rent-Dim_Date]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="20" y="1883" />
+                    <point x="-1017" y="1883" />
+                    <point x="-1017" y="1143" />
+                    <point x="-2055" y="1143" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-2355" top="934" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="2675" height="1059" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Rent-Dim_Date1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="20" y="1333" />
+                    <point x="-1017" y="1333" />
+                    <point x="-1017" y="1693" />
+                    <point x="-2055" y="1693" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-3649" top="4546" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="1776" height="3147" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Rent-Dim_Apartment]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-3250" y="7193" />
+                    <point x="-3250" y="5530" />
+                    <point x="-2173" y="5530" />
+                    <point x="-2173" y="4846" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-2355" top="3043" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="2789" height="822" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Fact_Rent-Dim_Tenant]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="134" y="3465" />
+                    <point x="-960" y="3465" />
+                    <point x="-960" y="3343" />
+                    <point x="-2055" y="3343" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-8000</DiagramViewPortLeft>
+            <DiagramViewPortTop>-2205</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>80</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Tenant DW</DataSourceID>
+  <Schema>
+    <xs:schema id="Tenant_x0020_DW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Tenant_x0020_DW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="56b7e67a-ca1e-411e-813e-0bf958bbd7b9">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_Apartment" msprop:design-time-name="71cc55e6-5df0-456b-85f8-604c85d52f1d" msprop:FriendlyName="Dim_Apartment" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Apartment">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ApartmentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ApartmentID" msprop:DbColumnName="ApartmentID" msprop:design-time-name="9d96c37a-47da-4c2e-9e6e-bbf744674923" type="xs:int" />
+                  <xs:element name="ApartmentNumber" msprop:FriendlyName="ApartmentNumber" msprop:DbColumnName="ApartmentNumber" msprop:design-time-name="f64407aa-7488-4227-ae85-0bab12329da6">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ApartmentArea" msprop:FriendlyName="ApartmentArea" msprop:DbColumnName="ApartmentArea" msprop:design-time-name="a8749809-6e3a-4ce7-b440-df019bab4a31" type="xs:double" />
+                  <xs:element name="TypeID" msprop:FriendlyName="TypeID" msprop:DbColumnName="TypeID" msprop:design-time-name="d9fe77a1-0a9a-4af7-b696-ab95344bcf71" type="xs:int" />
+                  <xs:element name="Type_Key" msprop:FriendlyName="Type_Key" msprop:DbColumnName="Type_Key" msprop:design-time-name="06ff1dc4-abcc-48b5-b0cd-ebf1569d2655" type="xs:int" minOccurs="0" />
+                  <xs:element name="Apartament_Key" msprop:FriendlyName="Apartament_Key" msprop:DbColumnName="Apartament_Key" msprop:design-time-name="0b453cc4-2496-477e-9c30-2b9c0eb8f185" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Date" msprop:design-time-name="081cee4a-9a14-4476-8b71-0b61755a539f" msprop:FriendlyName="Dim_Date" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Date">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Date_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Date_ID" msprop:DbColumnName="Date_ID" msprop:design-time-name="3cd07b3a-f0bc-4de2-94e6-c99d512c35ae" type="xs:int" />
+                  <xs:element name="Date" msprop:FriendlyName="Date" msprop:DbColumnName="Date" msprop:design-time-name="fb862473-57d1-44fb-96d3-26c534020fc8" type="xs:dateTime" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="777960a7-c864-4edf-80e5-a78a95704cd9" type="xs:int" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="a3f97d25-d51a-4600-a810-fe4034be0bb8" type="xs:int" />
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="aa28d46f-e671-4315-bedf-79440bf0755c" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Tenant" msprop:design-time-name="512bc544-c7b3-4b31-8048-a22dc414b86a" msprop:FriendlyName="Dim_Tenant" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Dim_Tenant">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TenantID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="TenantID" msprop:DbColumnName="TenantID" msprop:design-time-name="20fe9076-090a-4fe6-be4f-144c4f64b22a" type="xs:int" />
+                  <xs:element name="TenantName" msprop:FriendlyName="TenantName" msprop:DbColumnName="TenantName" msprop:design-time-name="25743753-25d5-4e97-8630-09048e2fb10e">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TenantLegalAddress" msprop:FriendlyName="TenantLegalAddress" msprop:DbColumnName="TenantLegalAddress" msprop:design-time-name="75f7ec39-7d18-4a4a-bd78-ff775dd97c41">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="BankID" msprop:FriendlyName="BankID" msprop:DbColumnName="BankID" msprop:design-time-name="5c84544a-09ec-48a5-bff9-b8823d9b1ba4" type="xs:int" />
+                  <xs:element name="BankDirector" msprop:FriendlyName="BankDirector" msprop:DbColumnName="BankDirector" msprop:design-time-name="058aaf5c-40cd-49ae-b00b-1b452a96f07a">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Characteristic" msprop:FriendlyName="Characteristic" msprop:DbColumnName="Characteristic" msprop:design-time-name="1d493dda-e370-4bad-95da-d652d0386cd1" type="xs:string" minOccurs="0" />
+                  <xs:element name="Tenant_Key" msprop:FriendlyName="Tenant_Key" msprop:DbColumnName="Tenant_Key" msprop:design-time-name="d02990bb-499b-4a9d-8ed8-01860d471701" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_Rent" msprop:design-time-name="2461e680-864e-4b31-a615-b7dab3b465ce" msprop:FriendlyName="Fact_Rent" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:DbTableName="Fact_Rent">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ID" msprop:DbColumnName="ID" msprop:design-time-name="940a7f5a-a0dd-4ecd-a85a-efdf17dee30f" type="xs:int" />
+                  <xs:element name="TenantID" msprop:FriendlyName="TenantID" msprop:DbColumnName="TenantID" msprop:design-time-name="33639f9c-d58d-46ed-abc9-edf684cd563d" type="xs:int" />
+                  <xs:element name="ApartmentID" msprop:FriendlyName="ApartmentID" msprop:DbColumnName="ApartmentID" msprop:design-time-name="d9ebb103-9c24-42a7-a2a7-4cdda0ccd3f9" type="xs:int" />
+                  <xs:element name="TermFrom" msprop:FriendlyName="TermFrom" msprop:DbColumnName="TermFrom" msprop:design-time-name="712f5a93-d940-470f-a828-8eb44e5e2373" type="xs:dateTime" />
+                  <xs:element name="TermUpto" msprop:FriendlyName="TermUpto" msprop:DbColumnName="TermUpto" msprop:design-time-name="bc7c85ad-3073-48e1-a711-b35dfac85f67" type="xs:dateTime" />
+                  <xs:element name="RentDuration" msprop:FriendlyName="RentDuration" msprop:DbColumnName="RentDuration" msprop:design-time-name="e3e3000e-8e8c-4466-88eb-bcb69f4a21e0" type="xs:int" minOccurs="0" />
+                  <xs:element name="RentAmount" msprop:FriendlyName="RentAmount" msprop:DbColumnName="RentAmount" msprop:design-time-name="a1ae8d68-8607-451b-8a85-9624fb26fe52" type="xs:double" minOccurs="0" />
+                  <xs:element name="TermFrom_DateID" msprop:FriendlyName="TermFrom_DateID" msprop:DbColumnName="TermFrom_DateID" msprop:design-time-name="3142a31f-64c5-41e0-803b-c50459653d67" type="xs:int" minOccurs="0" />
+                  <xs:element name="TermUpto_DateID" msprop:FriendlyName="TermUpto_DateID" msprop:DbColumnName="TermUpto_DateID" msprop:design-time-name="f0e3d257-2670-403d-902d-d412b5357415" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Apartment" />
+          <xs:field xpath="ApartmentID" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Date_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Date" />
+          <xs:field xpath="Date_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Tenant_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Tenant" />
+          <xs:field xpath="TenantID" />
+        </xs:unique>
+        <xs:unique name="dbo_Fact_Rent_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_Rent" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="Fact_Rent-Dim_Date" msdata:parent="dbo_Dim_Date" msdata:child="dbo_Fact_Rent" msdata:parentkey="Date_ID" msdata:childkey="TermUpto_DateID" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="Fact_Rent-Dim_Date1" msdata:parent="dbo_Dim_Date" msdata:child="dbo_Fact_Rent" msdata:parentkey="Date_ID" msdata:childkey="TermFrom_DateID" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="Fact_Rent-Dim_Apartment" msdata:parent="dbo_Dim_Apartment" msdata:child="dbo_Fact_Rent" msdata:parentkey="Apartament_Key" msdata:childkey="ApartmentID" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="Fact_Rent-Dim_Tenant" msdata:parent="dbo_Dim_Tenant" msdata:child="dbo_Fact_Rent" msdata:parentkey="Tenant_Key" msdata:childkey="TenantID" msprop:Description="" msprop:IsLogical="True" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Tenant_x0020_DW xmlns="" />
+  </Schema>
+</DataSourceView>
